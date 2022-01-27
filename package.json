@@ -1,0 +1,39 @@
+{
+  "name": "react-h5tominip",
+  "version": "1.0.0",
+  "description": "A React component for navigation to Wechat MiniProgram from html page in Wechat.",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdirp dist && babel src/WxOpenLaunchWeappWrap.js --out-file dist/WxOpenLaunchWeappWrap.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yanfei-Qiao/react-h5ToMinip.git"
+  },
+  "keywords": [
+    "react",
+    "wechat",
+    "mini-program",
+    "wx-open-launch-weapp"
+  ],
+  "author": "Yanfei Qiao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yanfei-Qiao/react-h5ToMinip/issues"
+  },
+  "homepage": "https://github.com/Yanfei-Qiao/react-h5ToMinip#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "babel-plugin-istanbul": "^6.1.1",
+    "mkdirp": "^1.0.4"
+  }
+}
